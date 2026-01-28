@@ -1,0 +1,8 @@
+package org.example.task4.sound;
+
+public class Meow implements SoundLogic {
+    @Override
+    public void sound(String name) {
+        System.out.println(name + " мяукает.");
+    }
+}
